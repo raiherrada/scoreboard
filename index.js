@@ -42,13 +42,9 @@ function changeColor(base) {
     base.setAttribute("src", newSrc);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    let resetButton = document.getElementById("reset-button");
-
     resetButton.addEventListener('click', () => {
         countHome = 0;
         countGuest = 0;
         homeScore.textContent = countHome;
         guestScore.textContent = countGuest;
     });
-});
