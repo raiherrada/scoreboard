@@ -1,0 +1,115 @@
+@font-face {
+    src: url("Fonts/scoreboard.ttf") format("truetype");
+    font-family: scoreboard;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url(/Media/Images/field.jpg);
+    background-size: cover;
+    font-family: Outfit; sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 300px;
+    background: #89043D;
+    padding: 30px 50px 10px 50px;
+    margin: 20px auto;
+    border-radius: 30px;
+    color: white;
+    gap: 30px;
+
+}
+
+.MLB {
+    width: 150px;
+}
+
+p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.point-square {
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 80px;
+    height: 70px;
+    padding: 15px 10px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 80px;
+    font-family: scoreboard, sans-serif;
+    color: #E0A800;
+    border-radius: 10px;
+}
+
+.bases {
+    display: flex;
+    margin: 40px auto;
+}
+
+#second-base {
+    width: 30px;
+    justify-content: center;
+    align-items: top;
+    transform: translateX(200%) translateY(-5%);
+}
+
+#first-base {
+    width: 30px;
+    transform: translateX(200%) translateY(100%);
+}
+
+#third-base {
+    width: 30px;
+    transform: translateX(-100%) translateY(100%);
+}
+
+.point-add-container {
+    display:flex;
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.point-add {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+    background-color: #89043D;
+    padding: 5px;
+    border: 3px solid #5F0724;
+    border-radius: 10px;
+}
+
+.red-filter {
+    background-color: red;
+}
+
+.reset-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-button {
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+    background-color: #89043D;
+    padding: 10px;
+    border: 3px solid #5F0724;
+    border-radius: 10px;
+}
