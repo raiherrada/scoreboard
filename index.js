@@ -42,6 +42,8 @@ function changeColor(base) {
     base.setAttribute("src", newSrc);
 }
 
+let resetButton = document.getElementById("reset-button");
+
     resetButton.addEventListener('click', () => {
         countHome = 0;
         countGuest = 0;
